@@ -41,23 +41,36 @@ Once installed, simply run the command:
 
 ```bash
 jlookup
+```
+- You will be prompted by fzf to select a Java module. Type to filter the list and press Enter to select.
 
+- Next, you'll be asked whether to view [P]ackages or the [M]odule summary. Press 'P', 'M', or Enter (defaults to M).
 
-You will be prompted by fzf to select a Java module. Type to filter the list and press Enter to select.
-Next, you'll be asked whether to view [P]ackages or the [M]odule summary. Press 'P', 'M', or Enter (defaults to M).
-If you chose 'P', you'll get another fzf prompt to select a package within that module.
-The corresponding Oracle documentation page will be opened in your default web browser.
-You will then be asked if you want to search again. Press Enter or 'y' to continue, or 'n' to exit.
-You can cancel fzf prompts or the script itself using Ctrl+C.
-Contributing
+- If you chose 'P', you'll get another fzf prompt to select a package within that module.
+
+- The corresponding Oracle documentation page will be opened in your default web browser.
+
+- You will then be asked if you want to search again. Press Enter or 'y' to continue, or 'n' to exit.
+
+- You can cancel fzf prompts or the script itself using Ctrl+C.
+
+## Contributing
 Contributions are welcome! If you have suggestions for improvements or find a bug, please feel free to:
-Fork the repository.
-Create a new branch for your feature or bug fix (git checkout -b feature/your-feature-name or git checkout -b fix/your-bug-fix).
-Make your changes.
-Commit your changes (git commit -am 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Create a new Pull Request.
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix (git checkout -b feature/your-feature-name or git checkout -b fix/your-bug-fix).
+
+3. Make your changes.
+
+4. Commit your changes (git commit -am 'Add some feature').
+
+5. Push to the branch (git push origin feature/your-feature-name).
+
+6. Create a new Pull Request.
+
 Please ensure your code adheres to basic shell scripting best practices and that any changes maintain the core functionality.
+
 License
-This project is licensed under the MIT License - see the LICENSE file for details (or specify license directly).
-*(Note: You would typically include a LICENSE file in your repository containing the full text of the chosen license, like the MIT License.)
+This project is licensed under the GPL3 License - see the [LICENSE](LICENSE) file for details
+
